@@ -64,3 +64,30 @@ color: red;
    
   
 }
+
+.img-sec{
+    width: 100%;
+    overflow-x: hidden;
+    background: url("./images/student.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: top left;
+    
+}
+
+.main-sec {
+    position: relative;
+
+}
+
+.popup {
+    border: 1px solid;
+    padding: 20px 20px;
+    font-size: medium;
+    font-style: oblique;
+    border-radius: 12px;
+    width: 50%;
+
+    margin-left: auto;
+    margin-top: 72px;
+}

@@ -8,6 +8,11 @@
     }
     .menu-icon{
         display: block;
+        position: fixed;
+        float: right !important;
+        
+        right: 0;
+        z-index: 1;
    
     }
 
@@ -18,6 +23,9 @@
         align-items: baseline;
         border-radius: 10px;
         height: 100vh;
+        position: fixed !important;
+        z-index: 12;
+    top: 0;
     }
     .my{
         left: 0 !important;
@@ -33,5 +41,13 @@
     }
       
     
-  
+
+  }
+  @media only screen and (max-width: 560px) {
+    .popup{
+        height: 147px;
+        overflow-y: scroll;
+        background: #faebd7b5;
+        margin-inline: auto;
+      }
   }
