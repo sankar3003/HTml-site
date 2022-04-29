@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sampel 1</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+    display: flex;
+    flex-direction: row;
+    /* padding: 0px 6px; */
+    background: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+
+}
+.items a{
+    padding: 16px 26px;
+}
+.items a{
+    text-decoration: none;
+    color: white !important;
+}
+.items a:hover{
+    padding: 16px 26px !important;
+    background: white;
+    color: black !important;
+}
+p.heading {
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.contnet {
+    padding: 10px 20px 50px 10px;
+    background: lightgray;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+    /* flex-direction: column !important; */
+    flex-wrap: wrap;
+ 
+}
+}
+@media only screen and (max-width: 244px) {
+    .header {
+  height: 100px;
+ 
+}
+}
+    </style>
+</head>
+<body>
+  <div class="header">
+    <div class="items">
+        <a href="#">Link</a>
+  
+    </div>
+    <div class="items">  <a href="#">Link</a></div>
+    <div class="items">  <a href="#">Link</a></div>
+  </div>  
+  <div class="contnet">
+<p class="heading">    CSS Template</p>
+  
+    <p>A topnav, content and a footer.</p>
+  </div>
+  <div class="footer
+  ">
+Footer
+  </div>
+</body>
+</html>

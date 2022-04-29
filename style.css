@@ -91,3 +91,90 @@ color: red;
     margin-left: auto;
     margin-top: 72px;
 }
+
+.card-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    width: 299px !important;
+    margin: 2px;
+    border: 1px solid;
+    flex-direction: row-reverse;
+    background: url('images/download.jpg');
+    height: 139px;
+    position: relative;
+    margin: 11px 27px;
+    border-radius: 5px;
+
+}
+
+.cards button {
+    position: absolute;
+    top: 112px;
+    right: 11px;
+    cursor: pointer;
+}
+
+
+.two-section {
+    padding: 15px 10px;
+    word-spacing: 7px;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 19px;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+
+
+.footer {
+    display: flex;
+    background: antiquewhite;
+    /* width: 100%; */
+    padding: 17px 9px;
+    /* overflow-y: unset !important; */
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section {
+    transition: 1.2s;
+}
+.footer .section {
+    padding: 5px 20px;
+    background: azure;
+    border: 1px solid;
+    border-radius: 11px;
+  
+}
+li.lists {
+    cursor: pointer;
+    list-style: square;
+    /* text-underline-position: right; */
+    
+}
+li.lists:hover {
+
+    text-decoration: underline;
+}
+
+.cp {
+    text-transform: uppercase;
+}
+.cp:hover {
+    color: red;
+    transition: 0.1s;
+    background: aquamarine;
+}
+
+.section:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    /* box-shadow: brown; */
+    box-shadow: 4px 3px #888888;
+}

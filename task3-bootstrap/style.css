@@ -1,0 +1,812 @@
+
+#main{
+    box-sizing: border-box;
+    }
+    #header
+    {
+        
+    margin-top: 1rem!important;
+
+    }
+    #header_1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    #header_2
+    {
+        margin-left: -42px;
+    }
+    .header_img
+    {
+        display: flex;
+        width: 271px;
+        height: 91px;
+    }
+    .li_a
+    {
+        font-size: 21px;
+    }
+    .li_b
+    {
+        font-size: 28px;
+    }
+    .navbar
+    {
+        padding: 0px !important;
+    }
+   .nav_two, .nav_one {
+        justify-content: flex-end !important;
+    }
+    .banner_1
+    {
+        width: 100%;
+        position: relative;
+        background-image: url(..//task3-bootstrap/images/banner.png);
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .banner_2
+    {
+    width: 407px;
+    height: 214px;
+    background-color: lavenderblush;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 81px;
+    right: 241px;
+    padding: 10px;
+    }
+    .banner_h4
+    {
+        font-size: 37px;
+        margin: 0px;
+        font-weight: 400;
+    }
+    .banner_span
+    {
+        font-size: 49px;
+        font-weight: 500;
+    }
+    
+   
+    .side_head
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+  .index_line
+  {
+    width: 72px;
+    height: 2px;
+    background-color: rgb(134, 132, 132);
+    margin: 0px auto 25px;
+      
+  }
+    .resource_two
+    {
+        width: 100%;
+     
+        
+    }
+    .res
+    {
+       
+     margin-top: 0%;
+    border: 1px solid gainsboro;
+    }
+  
+    
+    
+    .res_img
+    {
+        width: 100%;
+        height: 200px;
+    }
+    .res_padding
+    {
+       padding: 8px;
+      
+    }
+    #blue_para{
+    color: cornflowerblue;
+    }
+    #res_read
+    {
+        text-align: center;
+        border-top: 1px solid cornflowerblue;
+        padding-top: 10px;
+        color: cornflowerblue;
+    }
+    #event_two
+    {
+        width: 100%;
+     
+        
+    }
+    .eve
+    {
+       
+        margin-top:auto;
+        border: 1px solid gainsboro;
+     
+    }
+    
+    #date
+    {
+        border: 1px solid gainsboro;
+        width: 34%;
+        padding: 5px;
+    }
+    #more_one
+    {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 15px;
+        color: rgb(122, 121, 121);
+    }
+    #more_two
+    {
+        background-image: url(./images/getin-image.png);
+        background-color:rgb(81, 81, 255);
+        max-width: 100%;
+        height: 461px;
+        background-repeat: no-repeat;
+        margin-top: 15px;
+        background-size: cover;
+        color: white;
+    }
+    #more_para1
+    {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        padding-top: 77px;
+    
+    }
+    #more_para2
+    {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 300;
+        padding-top: 10px;
+        margin: 0px 156px
+    }
+    #more_para3
+    {
+        font-size: 23px;
+        font-weight: 300;
+        padding-top: 10px;
+        margin: 26px 228px;
+    }
+    #more_para4
+    {
+        width: 551px;
+        height: 69px;
+        background-color: blue;
+        margin: 1px 227px;
+    }
+    #more_para4 .more-div
+    {
+        display: inline-block;
+        margin: 12px -3px;
+        padding: 9px;
+    }
+    #more_center
+    {
+        margin-left: 41px;
+    }
+    #more_center input
+    {
+        width: 360px
+    }
+    #more_center button
+    {
+        width: 118px;
+        background-color: rgb(66, 63, 63);
+        color: white;
+    }
+     #social_main
+    {
+        width: 100%;
+        font-size: 14px;
+    } 
+    #social
+    {
+      
+        box-sizing: border-box;
+        margin-left: 16px;
+    }
+    #social_body
+    {
+        border:  1px solid gainsboro;
+        width: 97%;
+        margin-top: 20px;
+        min-height: 399px;
+        padding-top: 10px;
+    }
+    #soc_head div{
+        display: inline-block;
+    } 
+    #soc_head
+    {
+        display: flex;
+        align-items: flex-end;
+        
+    }
+    #s_one
+    {
+        width: 100%;
+        border-bottom: 1px solid gainsboro ;
+    }
+    .sub_one
+    {
+        
+        margin-right: 8px;
+        text-align: center;
+    }
+    .sub_two
+    {
+        width: 80%;
+    }
+    #s_one .s_sub
+    {
+        display: inline-block;
+    }
+    
+    .mini_icon img
+    {
+        width: 17px;
+        height: 17px;
+    }
+    #s_two .s_sub
+    {
+        display: inline-block;
+    }
+    
+    #grey
+    {
+      color: rgb(134, 130, 130) ;
+    }
+    #blue
+    {
+      color: #3b5998;
+    }
+    #li_blue
+    {
+     color: skyblue;
+     font-weight: 400;
+    }
+    #l_b
+    {
+      color: skyblue;
+      font-size: 12px;
+    }
+    #peter
+    {
+      color: #3b5998;
+      font-weight: 700;
+      font-size: 15px;
+    }
+    #s_two
+    {
+        margin-top: 3px;
+        margin-left: 9px;
+        font-size: 14px
+    }
+    #footer {
+    
+        color: rgb(124, 123, 123);
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        background-color: black;
+    }
+    .footer_one
+    {
+        width: 30%;
+       
+        margin-top: 18px;
+        margin-left: 48px;
+    }
+    
+    #footer #f_div{
+        
+        color: rgb(124, 123, 123);
+    
+    }
+    .footer_four
+    {
+       display: flex;
+        margin-top: 19px;
+        margin-right: 10px
+    }
+   
+    .footer_four img
+    {
+        width: 25px;
+        height: 25px;
+    }
+    .footer_two{
+        margin-top: 0px;
+      
+        
+    }
+    .footer_three{
+        margin-top: 0px;
+       
+    }
+   
+    .footer_four p{
+        color: rgb(226, 225, 226);
+    }
+    ul.f_ul {
+    
+        list-style-type: none;
+        margin-top: 15px;
+    }
+    img#img_small\ f_f_div {
+        margin-left: 7px;
+    }
+    #end_div
+    {
+        width: 100%;
+        height: 50px;
+        background-color: #363636;
+        box-sizing: border-box;
+       color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #end_div div
+    {
+     
+      color: white;
+      font-size: small;
+        margin-top: 10px;
+    }
+    #end_1
+    {
+        margin-left: 66px;
+    }
+    #end_3
+    {
+        margin-right: 50px;
+    }
+    p#f_p {
+        font-size: 18px;
+        }
+        ul.f_ul li {
+            font-size: 12px;
+            line-height: 22px;
+        }
+        
+    
+        .s_sub.sub_one img {
+            display: flex;
+            padding-left: 15px;
+        }
+        .psdfc_icon
+        {
+            margin-top: 7px;
+            width: 66px;
+        }
+        .container, .container-lg, .container-md, .container-sm, .container-xl {
+            max-width: 95% !important;
+        }
+        .more_maxwidth
+        {
+            max-width: 1053px;
+            margin: 0px auto;
+        }
+        .row {
+            margin-right: 0px !important;
+        }
+        #soc_para
+        {
+            margin-bottom: 0px;
+            font-size: 19px;
+            margin-left: 16px;
+        }
+
+/* about */
+          
+
+        
+   .about_head
+   {
+       background-color: #477fc1;
+       width: 100%;
+       height: 43px;
+
+   }
+   .about{
+   margin-top: 20px;
+   }
+   .row {
+    margin-right: 0px !important;
+}
+.about_img
+{
+    background-image: url(..//task3-bootstrap/images/healthy.png);
+    background-size: 100%;
+    height: 321px;
+    background-repeat: no-repeat;
+}
+.about_foot
+{
+    background-color:black;
+    width: 100%;
+    height: 43px;
+}
+.about_ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding-top: 8px;
+    padding-left: 0px;
+}
+ .about_ul li{
+    padding-left: 72px;
+    font-size: 24px;
+    margin-top: -6px;
+}
+.form
+{
+    margin-top:50px ;
+}
+.form_para
+{
+    font-size: 15px;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 95% !important;
+}
+.line
+{
+    width: 147px;
+    height: 2px;
+    background-color: rgb(185, 180, 180);
+}
+
+li{
+    
+   
+    font-size: 13px;
+
+}
+.footer_flex
+{
+    display: flex;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+/* Event */
+
+    
+    li.nav-item {
+        padding: 0px 16px;
+    }
+    .row {
+        margin-right: 0px !important;
+    }
+    .event_head
+   {
+       background-color: #477fc1;
+       width: 100%;
+       height: 43px;
+
+   }
+   .event{
+    margin-top: 20px;
+    }
+    .event_img
+{
+    background-image: url(..//task3-bootstrap/images/eve1.jpg);
+    background-size: 100%;
+    height: 315px;
+    background-repeat: no-repeat;
+}
+.event_foot
+{
+    background-color:black;
+    width: 100%;
+    height: 43px;
+}
+.event_ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding-top: 8px;
+    padding-left: 0px;
+}
+ .event_ul li{
+    padding-left: 66px;
+    font-size: 24px;
+    margin-top: -11px;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 95% !important;
+}
+.annual_div
+{
+    padding: 19px;
+    background-color: #8dc63f;
+    height: 293px;
+}
+.col-sm-12.col-md-5.col-lg-5.col-xl-5 {
+    padding: 4px;
+}
+.col-sm-12.col-md-7.col-lg-7.col-xl-7 {
+    padding: 4px;
+}
+.annual_head
+{
+    margin: 25px;
+}
+.annual_img
+{
+    width: 100%;
+    height: 292px;
+}
+.text_green
+{
+    color: rgb(224, 224, 21);
+}
+.global_one
+{
+   
+    background-color: #f5f4f4;
+}
+.global_two
+{
+   
+    background-color: #f5f4f4;
+}
+.col-sm-12.col-md-8.col-xl-8.col-lg-8 {
+    padding-right: 7px;
+    padding-left: 3px;
+}
+.col-sm-12.col-md-4.col-xl-4.col-lg-4 {
+    padding-right: 3px;
+    padding-left: -1px;
+}
+.global{
+margin-top: 25px;
+color: rgb(170, 170, 170);
+}
+.global_one
+{
+    
+    padding: 14px;
+}
+.global_two{
+    display: flex;
+    padding: 10px;
+}
+.location_img
+{
+   width: 5px;
+   height: 5px;
+    
+}
+.conference
+{
+    text-align: initial;
+}
+.loc_1
+{
+    margin-left: 2px;
+}
+.loc_2
+{
+    margin-left: 19px;
+}
+.page
+{
+    margin-top: 24px;
+    margin-right: 14px;
+}
+.focus_page
+{
+margin-top: 24px;
+display: flex;
+justify-content: center !important;
+}
+.pagination .page-link {
+   
+    color:gray;
+}
+a.page-link {
+    border: none;
+}
+
+
+/* Focus */
+.donation
+{
+    background-image: url(..//task3-bootstrap/images/back-img.png);
+    
+    height: 106rem;
+
+}
+.donation_head
+{
+    text-align: center;
+    padding: 30px;
+}
+.donation_head h4{
+    color: #3b5998;
+}
+#don_para
+{
+    font-size: 15px;
+    margin-inline: 188px;
+}
+.donation_body
+{
+    background-color: #f8f7f6;
+    width: 80%;
+    margin-inline: auto;
+    padding: 30px;
+
+}
+.db_head
+{
+    text-align: center;
+   
+}
+.amount_btn
+{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.ab{
+    border: 4px solid rgb(226, 225, 226);
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+.rupees
+{
+    background-color: #4d75ca;
+    color: white;
+}
+.symbol
+{
+    font-size: 29px;
+    color:rgb(226, 225, 226) ;
+}
+.last_ab
+{
+    border: 1px solid rgb(226, 225, 226);
+    width: 117px;
+    height: 51px;
+    background-color: white;
+}
+.amount_radio
+{
+    display: flex;
+    margin-top: 15px;
+    
+}
+.amount
+{
+    margin-top: 15px;
+  
+   
+}
+
+.amount_radio input[type=checkbox] {
+    width: 27px;
+    height: 22px;
+    margin-right: 16px;
+  }
+  .don_side_head
+  {
+      font-size: 20px;
+      color:#4d75ca;
+      margin-top: 10px;
+  }
+  .don_name
+  {
+      display: flex;
+      justify-content: space-between;
+  }
+  .don_select
+  {
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(226, 225, 226);
+
+  }
+  .don_text
+  {
+    height: 50px;
+    width: 306px;
+    border: 2px solid rgb(226, 225, 226);
+  }
+  .border_line
+  {
+    background-color: rgb(226, 225, 226);
+    height: 1px;
+    margin-top: 18px;
+    width: 1035px;
+    margin-left: 67px;
+  }
+  .add{
+      width: 100%;
+    max-width: 350px;
+    height: 52px;
+    margin-top: 10px;
+    border: 2px solid rgb(226, 225, 226);
+    
+  }
+.pay1
+  {
+    width: 536px;
+    height: 50px;
+    border: 2px solid rgb(226, 225, 226);
+  }
+  .pay2
+  {
+    width: 331px;
+    margin-top: 15px;
+    height: 50px;
+    border: 2px solid rgb(226, 225, 226);
+  }
+  .add_float
+  {
+      display: flex;
+      justify-content: space-between;
+      color:rgb(161, 161, 161) ;
+  }
+  .info_radio
+  {
+   display: flex;   
+  }
+  .info_para
+  {
+      color: rgb(109, 107, 107);
+  }
+  select{
+    
+    padding: 5px;
+    color: rgb(122, 119, 119);
+    
+  }
+  input[type="text"]::placeholder {  
+     padding-left: 10px; 
+}
+.submit
+{
+    background-color: #4d75ca;
+    border: 6px solid rgb(226, 225, 226);
+    width: 275px;
+    height: 73px;
+    border-radius: 7px;
+    color: white;
+    font-size: 23px;
+}
+.submit_div
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+ 

@@ -49,5 +49,11 @@
         overflow-y: scroll;
         background: #faebd7b5;
         margin-inline: auto;
+        
       }
+  }
+  @media only screen and (max-width: 678px) {
+ .section{
+  margin: 20px;
+ }
   }
